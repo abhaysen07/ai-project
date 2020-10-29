@@ -6,8 +6,7 @@ import pandas as pd
 import cv2
 import numpy as np
 
-files = os.chdir("C:/Users/abhishek_kumar1/Downloads/New folder/project/pdf")
-#print(os.getcwd())
+files = os.chdir("#path to access the pdf files")
 pages = convert_from_path("d.pdf",500,single_file=True,
                           poppler_path='C:/Users/abhishek_kumar1/Downloads/poppler-0.68.0_x86/poppler-0.68.0/bin')
 image_counter=1
